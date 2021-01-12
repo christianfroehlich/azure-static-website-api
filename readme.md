@@ -1,4 +1,4 @@
-# Note
+## Note
 
 1. Web and Api must be in a separate folder hierarchy.
 
@@ -13,3 +13,7 @@
     }
 }
 ```
+
+## References
+
+https://docs.microsoft.com/en-au/azure/static-web-apps/add-api
