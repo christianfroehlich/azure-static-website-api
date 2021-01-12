@@ -25,9 +25,9 @@ namespace Demo.Api
             // dynamic data = JsonConvert.DeserializeObject(requestBody);
             // name = name ?? data?.name;
 
-            string responseMessage = "Hello from the API.";
+            string responseMessage = "Hello from the API.";            
 
-            return new OkObjectResult(responseMessage);
+            return new OkObjectResult(new { text = responseMessage });
         }
     }
 }
